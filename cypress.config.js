@@ -4,7 +4,6 @@ module.exports = defineConfig({
   defaultCommandTimeout: 5000,
   viewportWidth: 1000,
   viewportHeight:600,
-  retries:1,
   env: {
     FOO: 'bar',
   },

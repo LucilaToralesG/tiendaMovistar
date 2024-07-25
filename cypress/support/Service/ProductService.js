@@ -1,8 +1,8 @@
 import ProductPage from "../Pages/ProductPage";
 export class ProductService{
-    // Creating Object for ProductPage
+    
     static product = new ProductPage();
-    // Doing the search part for Shirts.
+    
     static searchProduct(product){
         this.product.getSearchBtm().click({force: true});
         this.product.getSearchTextBox().clear().type(product);

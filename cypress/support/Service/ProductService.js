@@ -17,29 +17,21 @@ export class ProductService{
         this.product.getFilterItems().contains(filter).click();
     }
     static openCalculateInstallment(){
+        cy.contains('Calculá tus cuotas').should('be.visible');
         this.product.getInstallmentsBtm().click();
-        cy.wait(3000);
     }
-    static selectInstallment(bank,card,installment){
+    static selectInstallment(bank,card){
         this.openCalculateInstallment();
-        this.product.getSelectBank().click();
-        this.product.getSelectBank().select(bank);
-        this.product.getSelectCard().click();
-        this.product.getSelectCard().select(card);
-        this.product.getInstallmentCalculate().click();
-        cy.wait(3000);
-        this.product.getResultInstallment().should('contain',installment +' cuotas sin interés');
-        //;
-        //
+        this.product.getBankBox().click();
+        this.product.getBankOpcion().find('li').contains(bank).click({force: true});
+        this.product.getCardBox().click();
+        this.product.getCardOpcion().find('li').contains(card).click({force: true});
+        this.product.getResultInstallmentBtm().click();
     }
-    static select60Installment(){
-        this.product.getSelectBank().click();
-        cy.get('[id"ui-id-21"]').click();
-        this.product.getSelectCard().click();
-        cy.get('#selectCardByBank li:nth-child(3)').click();
-        this.product.getInstallmentCalculate().click();
-        cy.wait(3000);
-        this.product.getResultInstallment().should('not.contain','60 cuotas sin interés');
+    static verifyInstallmentAvailable(available,installments){
+        this.product.getResultInstallmentInfo().should('be.visible');
+        this.product.getResultInstallmentInfo().should(available, installments+' cuotas sin interés de');
+
         
     }
 

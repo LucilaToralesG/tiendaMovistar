@@ -5,17 +5,23 @@ class ProductPage {
     getInstallmentsBtm(){
         return cy.get('#open-installments-modal');
     }
-    getSelectBank(){
+    getBankBox(){
         return cy.get('#inputbank');
     }
-    getSelectCard(){
-        return cy.get('[id="inputCard"]');
+    getBankOpcion(){
+        return cy.get('#selectBank');
     }
-    getInstallmentCalculate(){
+    getCardBox(){
+        return cy.get('#inputCard');
+    }
+    getCardOpcion(){
+        return cy.get('#selectCardByBank');
+    }
+    getResultInstallmentBtm(){
         return cy.get('#calculate_btn > .btn-primary');
     }
-    getResultInstallment(){
-        return cy.get('#bodyTable')
+    getResultInstallmentInfo(){
+        return cy.get('#installmentsTable');
     }
 }
 export default ProductPage

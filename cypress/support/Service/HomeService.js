@@ -12,18 +12,17 @@ export class HomeService{
     }
     static selectFilter(filter){
         this.home.getFilterBtm().click();
-        this.home.getFilterItems().contains(filter).click();
-        cy.wait(10000);
+        this.home.getFilterItems().contains(filter).click({force: true});
     }
     static selectProduct(index){
         this.home.getProductList().children('li').eq(index).click();
     }
     static selectSort(cat){
-        this.home.getSortQL();
-        this.home.getSortItems().contains(cat).click();
-        cy.wait(1000);
+        this.home.getSortQL().click();
+        this.home.getSortItems().find('li').contains(cat).click({force: true});
     }
     static verifyCounterfilter(value){
+        this.home.getFilterBtm().should('be.visible', value)
         this.home.getFilterBtm().should('contain', value);
     }
 

@@ -21,8 +21,7 @@ class HomePage {
         return cy.get('.toolbar-sorter');
     }
     getSortItems(){
-        return cy.get('#options-sorter > ul');
+        return cy.get('#options-sorter');
     }
-
 }
 export default HomePage

@@ -1,8 +1,8 @@
 import HomePage from "../Pages/HomePage";
 export class HomeService{
-    // creacion del objeto ProductPage
+    
     static home = new HomePage();
-    // Doing the search part for Shirts.
+    
     static searchProduct(product){
         this.home.getSearchBtm().click();
         this.home.getSearchTextBox().clear().type(product).type('{enter}');

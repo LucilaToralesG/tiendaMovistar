@@ -31,8 +31,6 @@ export class ProductService{
     static verifyInstallmentAvailable(available,installments){
         this.product.getResultInstallmentInfo().should('be.visible');
         this.product.getResultInstallmentInfo().should(available, installments+' cuotas sin interés de');
-
-        
     }
 
 }

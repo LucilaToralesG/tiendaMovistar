@@ -1,5 +1,7 @@
 {
-  "name": "Using fixtures to represent data",
-  "email": "hello@cypress.io",
-  "body": "Fixtures are a great way to mock data for responses to routes"
+  "baseUrl": "https://tiendaonline.movistar.com.ar/",
+  "producto": "A14",
+  "memoriaInterna": "128GB",
+  "precio": "$ 250.000 - $ 500.000",
+  "sort": "Marca "
 }

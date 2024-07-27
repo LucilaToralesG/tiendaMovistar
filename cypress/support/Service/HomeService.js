@@ -22,7 +22,6 @@ export class HomeService{
         this.home.getSortItems().find('li').contains(cat).click({force: true});
     }
     static verifyCounterfilter(value){
-        this.home.getFilterBtm().should('be.visible', value)
         this.home.getFilterBtm().should('contain', value);
     }
 

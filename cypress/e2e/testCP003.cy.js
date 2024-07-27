@@ -31,7 +31,7 @@ describe('CP003: Tienda Movistar', function(){
         HomeService.selectProduct(2);
 
         cy.log('Stept # 3: Verificar que sea el equipo indicado');
-        ProductService.verifyProductName('Moto G04 4G');
+        ProductService.verifyProductName('Moto G24');
 
         cy.log('Stept # 4: Seleccionar las cuotas sin interes');
         ProductService.selectInstallment('Credicoop','Visa');

@@ -34,13 +34,13 @@ describe('CP001: Tienda Movistar', function(){
         HomeService.selectProduct(0);
 
         cy.log('Stept # 4: Verificar que sea el equipo indicado');
-        ProductService.verifyProductName('Galaxy A14 4G');
+        ProductService.verifyProductName(this.data.equipo);
 
         cy.log('Stept # 5: Seleccionar las cuotas sin interes');
-        ProductService.selectInstallment('American Express','American Express');
+        ProductService.selectInstallment(this.data.banco,this.data.tarjeta);
 
         cy.log('Stept # 6: Verificar que esten disponibles las cuotas indicadas');
-        ProductService.verifyInstallmentAvailable('contain',3);
+        ProductService.verifyInstallmentAvailable('contain',this.data.cuotas);
 
     })
 

@@ -4,7 +4,8 @@
   "description": "Pruebas automatizadas del sistema de tienda Movistar",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules\\.bin\\cypress run"
+    "test": "node_modules\\.bin\\cypress open",
+    "test1": "node_modules\\.bin\\cypress open"
   },
   "keywords": [
     "qa",
@@ -14,11 +15,11 @@
   ],
   "author": "LucilaTorales",
   "license": "ISC",
-  "dependencies": {
-    "cypress": "^13.13.1"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/LucilaTorales/tiendaMovistar"
+  },
+  "devDependencies": {
+    "cypress": "^13.15.0"
   }
 }

@@ -1,0 +1,36 @@
+[{
+    "installment_rate": 0,
+    "installments": 1,
+    "installment_amount": 268999,
+    "total_amount": 268999
+},
+{
+    "installment_rate": 0,
+    "installments": 3,
+    "installment_amount": 89666.33,
+    "total_amount": 268999
+},
+{
+    "installment_rate": 0,
+    "installments": 6,
+    "installment_amount": 44833.17,
+    "total_amount": 268999
+},
+{
+    "installment_rate": 0,
+    "installments": 9,
+    "installment_amount": 29888.78,
+    "total_amount": 268999
+},
+{
+    "installment_rate": 0,
+    "installments": 12,
+    "installment_amount": 22416.58,
+    "total_amount": 268999
+},
+{
+    "installment_rate": 0,
+    "installments": 60,
+    "installment_amount": 2999.98,
+    "total_amount": 179999
+}]

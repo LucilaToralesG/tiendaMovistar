@@ -1,0 +1,683 @@
+{
+    "data": {
+        "products": {
+            "total_count": 2,
+            "aggregations": [
+                {
+                    "attribute_code": "price",
+                    "count": 5,
+                    "label": "Price",
+                    "position": null,
+                    "options": [
+                        {
+                            "label": "0-300000",
+                            "value": "0_300000",
+                            "count": 14
+                        },
+                        {
+                            "label": "300000-600000",
+                            "value": "300000_600000",
+                            "count": 3
+                        },
+                        {
+                            "label": "600000-900000",
+                            "value": "600000_900000",
+                            "count": 3
+                        },
+                        {
+                            "label": "900000-1200000",
+                            "value": "900000_1200000",
+                            "count": 3
+                        },
+                        {
+                            "label": "1500000-1999999.01",
+                            "value": "1500000_1999999.01",
+                            "count": 2
+                        }
+                    ]
+                },
+                {
+                    "attribute_code": "category_uid",
+                    "count": 8,
+                    "label": "Category",
+                    "position": null,
+                    "options": [
+                        {
+                            "label": "Smartphones",
+                            "value": "NA==",
+                            "count": 25
+                        },
+                        {
+                            "label": "individuos respaldo",
+                            "value": "MTk=",
+                            "count": 25
+                        },
+                        {
+                            "label": "Destacados",
+                            "value": "MjI=",
+                            "count": 25
+                        },
+                        {
+                            "label": "Celulares Motorola",
+                            "value": "NzM=",
+                            "count": 8
+                        },
+                        {
+                            "label": "Celulares Samsung",
+                            "value": "Nzk=",
+                            "count": 7
+                        },
+                        {
+                            "label": "Celulares TCL",
+                            "value": "NzA=",
+                            "count": 6
+                        },
+                        {
+                            "label": "Celulares ZTE",
+                            "value": "ODI=",
+                            "count": 3
+                        },
+                        {
+                            "label": "Celulares Xiaomi",
+                            "value": "Njc=",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "attribute_code": "manufacturer",
+                    "count": 5,
+                    "label": "Marca",
+                    "position": 10,
+                    "options": [
+                        {
+                            "label": "Samsung",
+                            "value": "49",
+                            "count": 7
+                        },
+                        {
+                            "label": "Motorola",
+                            "value": "391",
+                            "count": 8
+                        },
+                        {
+                            "label": "TCL",
+                            "value": "1228",
+                            "count": 6
+                        },
+                        {
+                            "label": "Xiaomi",
+                            "value": "1519",
+                            "count": 1
+                        },
+                        {
+                            "label": "ZTE",
+                            "value": "1864",
+                            "count": 3
+                        }
+                    ]
+                },
+                {
+                    "attribute_code": "movistar_installment_filter",
+                    "count": 5,
+                    "label": "Cuotas sin inter\u00e9s",
+                    "position": 25,
+                    "options": [
+                        {
+                            "label": "1",
+                            "value": "2566",
+                            "count": 1
+                        },
+                        {
+                            "label": "3",
+                            "value": "2554",
+                            "count": 1
+                        },
+                        {
+                            "label": "6",
+                            "value": "2557",
+                            "count": 3
+                        },
+                        {
+                            "label": "9",
+                            "value": "2560",
+                            "count": 12
+                        },
+                        {
+                            "label": "12",
+                            "value": "2563",
+                            "count": 8
+                        }
+                    ]
+                },
+                {
+                    "attribute_code": "AI",
+                    "count": 1,
+                    "label": "Inteligencia Artificial",
+                    "position": 29,
+                    "options": [
+                        {
+                            "label": "Moto AI",
+                            "value": "2401",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "attribute_code": "movistar_internalmemory",
+                    "count": 5,
+                    "label": "Memoria interna",
+                    "position": 30,
+                    "options": [
+                        {
+                            "label": "32GB",
+                            "value": "310",
+                            "count": 2
+                        },
+                        {
+                            "label": "64GB",
+                            "value": "349",
+                            "count": 6
+                        },
+                        {
+                            "label": "128GB",
+                            "value": "802",
+                            "count": 8
+                        },
+                        {
+                            "label": "512GB",
+                            "value": "823",
+                            "count": 2
+                        },
+                        {
+                            "label": "256GB",
+                            "value": "916",
+                            "count": 7
+                        }
+                    ]
+                },
+                {
+                    "attribute_code": "movistar_camera",
+                    "count": 15,
+                    "label": "C\u00e1mara",
+                    "position": 50,
+                    "options": [
+                        {
+                            "label": "108 MP + 8 MP + 2 MP",
+                            "value": "1579",
+                            "count": 1
+                        },
+                        {
+                            "label": "13 MP",
+                            "value": "226",
+                            "count": 1
+                        },
+                        {
+                            "label": "13 MP + 2 MP",
+                            "value": "880",
+                            "count": 1
+                        },
+                        {
+                            "label": "50 MP + 12 MP + 5 MP",
+                            "value": "1621",
+                            "count": 2
+                        },
+                        {
+                            "label": "50 MP + 2 MP",
+                            "value": "1549",
+                            "count": 3
+                        },
+                        {
+                            "label": "50 MP + 8 MP",
+                            "value": "1801",
+                            "count": 3
+                        },
+                        {
+                            "label": "50 MP \/ 2 MP \/ 2 MP",
+                            "value": "1552",
+                            "count": 3
+                        },
+                        {
+                            "label": "50MP",
+                            "value": "1795",
+                            "count": 1
+                        },
+                        {
+                            "label": "50MP + 5MP + 2MP",
+                            "value": "1651",
+                            "count": 2
+                        },
+                        {
+                            "label": "8 MP",
+                            "value": "157",
+                            "count": 2
+                        },
+                        {
+                            "label": "8 MP \/ 5MP",
+                            "value": "1693",
+                            "count": 1
+                        },
+                        {
+                            "label": "50 MP + 10 MP + 13 MP",
+                            "value": "2371",
+                            "count": 1
+                        },
+                        {
+                            "label": "50 MP + 64 MP + 50 MP",
+                            "value": "2407",
+                            "count": 1
+                        },
+                        {
+                            "label": "50 MP + 8 MP + 5 MP",
+                            "value": "2419",
+                            "count": 2
+                        },
+                        {
+                            "label": "50 MP + 50 MP",
+                            "value": "2623",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "attribute_code": "movistar_screensize",
+                    "count": 11,
+                    "label": "Tama\u00f1o de pantalla",
+                    "position": 60,
+                    "options": [
+                        {
+                            "label": "6",
+                            "value": "238",
+                            "count": 1
+                        },
+                        {
+                            "label": "6.3",
+                            "value": "382",
+                            "count": 1
+                        },
+                        {
+                            "label": "6.5",
+                            "value": "1108",
+                            "count": 4
+                        },
+                        {
+                            "label": "6.52",
+                            "value": "964",
+                            "count": 1
+                        },
+                        {
+                            "label": "6.56",
+                            "value": "1633",
+                            "count": 2
+                        },
+                        {
+                            "label": "6.6",
+                            "value": "1303",
+                            "count": 6
+                        },
+                        {
+                            "label": "6.67",
+                            "value": "1066",
+                            "count": 2
+                        },
+                        {
+                            "label": "6.7",
+                            "value": "868",
+                            "count": 4
+                        },
+                        {
+                            "label": "6.75",
+                            "value": "1777",
+                            "count": 3
+                        },
+                        {
+                            "label": "6.78",
+                            "value": "1351",
+                            "count": 1
+                        },
+                        {
+                            "label": "6.9",
+                            "value": "1165",
+                            "count": 1
+                        }
+                    ]
+                }
+            ],
+            "items": [
+                {
+                    "name": "Motorola Edge 50 5G",
+                    "sku": "Motorola Edge 50 5G",
+                    "id": 19258,
+                    "__typename": "ConfigurableProduct",
+                    "websites": [
+                        {
+                            "id": 28,
+                            "name": "Terminales",
+                            "code": "terminales",
+                            "sort_order": 0,
+                            "default_group_id": "28",
+                            "is_default": false
+                        },
+                        {
+                            "id": 34,
+                            "name": "Tuenti",
+                            "code": "tuenti",
+                            "sort_order": 0,
+                            "default_group_id": "34",
+                            "is_default": false
+                        }
+                    ],
+                    "url_key": "motorola-edge-50-5g",
+                    "manufacturer": 391,
+                    "image": {
+                        "url": "https:\/\/tiendaonline.movistar.com.ar\/media\/catalog\/product\/cache\/4bc237c39ea3bd569ee738bf9a6d02c2\/m\/o\/moto-edge-50-5g-koalagray-frontside-chargercase_1.png",
+                        "label": "Motorola Edge 50 5G",
+                        "position": null,
+                        "disabled": null
+                    },
+                    "variants": [
+                        {
+                            "product": {
+                                "id": 19300,
+                                "name": "Motorola Edge 50 5G Koala grey ",
+                                "sku": "TM5ARMOT2407GR00",
+                                "manufacturer": 391,
+                                "image": {
+                                    "url": "https:\/\/tiendaonline.movistar.com.ar\/media\/catalog\/product\/cache\/4bc237c39ea3bd569ee738bf9a6d02c2\/m\/o\/moto-edge-50-5g-koalagray-frontside-chargercase.png",
+                                    "label": "Motorola Edge 50 5G Koala grey ",
+                                    "position": null,
+                                    "disabled": null
+                                },
+                                "price_range": {
+                                    "minimum_price": {
+                                        "regular_price": {
+                                            "value": 999999,
+                                            "currency": "ARS"
+                                        },
+                                        "final_price": {
+                                            "value": 999999,
+                                            "currency": "ARS"
+                                        },
+                                        "discount": {
+                                            "amount_off": 0,
+                                            "percent_off": 0
+                                        }
+                                    },
+                                    "maximum_price": {
+                                        "regular_price": {
+                                            "value": 999999,
+                                            "currency": "ARS"
+                                        },
+                                        "final_price": {
+                                            "value": 999999,
+                                            "currency": "ARS"
+                                        },
+                                        "discount": {
+                                            "amount_off": 0,
+                                            "percent_off": 0
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "product": {
+                                "id": 19303,
+                                "name": "Motorola Edge 50 5G Jungle green",
+                                "sku": "TM5ARMOT2407VE00",
+                                "manufacturer": 391,
+                                "image": {
+                                    "url": "https:\/\/tiendaonline.movistar.com.ar\/media\/catalog\/product\/cache\/4bc237c39ea3bd569ee738bf9a6d02c2\/m\/o\/moto-edge-50-5g-junglegreen-frontside-chargercase.png",
+                                    "label": "Motorola Edge 50 5G Jungle green",
+                                    "position": null,
+                                    "disabled": null
+                                },
+                                "price_range": {
+                                    "minimum_price": {
+                                        "regular_price": {
+                                            "value": 999999,
+                                            "currency": "ARS"
+                                        },
+                                        "final_price": {
+                                            "value": 999999,
+                                            "currency": "ARS"
+                                        },
+                                        "discount": {
+                                            "amount_off": 0,
+                                            "percent_off": 0
+                                        }
+                                    },
+                                    "maximum_price": {
+                                        "regular_price": {
+                                            "value": 999999,
+                                            "currency": "ARS"
+                                        },
+                                        "final_price": {
+                                            "value": 999999,
+                                            "currency": "ARS"
+                                        },
+                                        "discount": {
+                                            "amount_off": 0,
+                                            "percent_off": 0
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "product": {
+                                "id": 19306,
+                                "name": "Motorola Edge 50 5G Peach fuzz",
+                                "sku": "TM5ARMOT2407NJ00",
+                                "manufacturer": 391,
+                                "image": {
+                                    "url": "https:\/\/tiendaonline.movistar.com.ar\/media\/catalog\/product\/cache\/4bc237c39ea3bd569ee738bf9a6d02c2\/m\/o\/moto-edge-50-5g-peachfuzz-frontside-chargercase.png",
+                                    "label": "Motorola Edge 50 5G Peach fuzz",
+                                    "position": null,
+                                    "disabled": null
+                                },
+                                "price_range": {
+                                    "minimum_price": {
+                                        "regular_price": {
+                                            "value": 999999,
+                                            "currency": "ARS"
+                                        },
+                                        "final_price": {
+                                            "value": 999999,
+                                            "currency": "ARS"
+                                        },
+                                        "discount": {
+                                            "amount_off": 0,
+                                            "percent_off": 0
+                                        }
+                                    },
+                                    "maximum_price": {
+                                        "regular_price": {
+                                            "value": 999999,
+                                            "currency": "ARS"
+                                        },
+                                        "final_price": {
+                                            "value": 999999,
+                                            "currency": "ARS"
+                                        },
+                                        "discount": {
+                                            "amount_off": 0,
+                                            "percent_off": 0
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Samsung Galaxy A05 64GB 4G",
+                    "sku": "Samsung Galaxy A05 64GB 4G",
+                    "id": 17602,
+                    "__typename": "ConfigurableProduct",
+                    "websites": [
+                        {
+                            "id": 28,
+                            "name": "Terminales",
+                            "code": "terminales",
+                            "sort_order": 0,
+                            "default_group_id": "28",
+                            "is_default": false
+                        },
+                        {
+                            "id": 34,
+                            "name": "Tuenti",
+                            "code": "tuenti",
+                            "sort_order": 0,
+                            "default_group_id": "34",
+                            "is_default": false
+                        }
+                    ],
+                    "url_key": "samsung-galaxy-a05-64gb-4g",
+                    "manufacturer": 49,
+                    "image": {
+                        "url": "https:\/\/tiendaonline.movistar.com.ar\/media\/catalog\/product\/cache\/4bc237c39ea3bd569ee738bf9a6d02c2\/s\/a\/samsung-a05-black-front.png",
+                        "label": "Samsung Galaxy A05 64GB 4G",
+                        "position": null,
+                        "disabled": null
+                    },
+                    "variants": [
+                        {
+                            "product": {
+                                "id": 17605,
+                                "name": "Samsung Galaxy A05 64GB 4G negro",
+                                "sku": "TM4ARSAA055MNE00",
+                                "manufacturer": 49,
+                                "image": {
+                                    "url": "https:\/\/tiendaonline.movistar.com.ar\/media\/catalog\/product\/cache\/4bc237c39ea3bd569ee738bf9a6d02c2\/s\/a\/samsung-a05-black-front_1.png",
+                                    "label": "Samsung Galaxy A05 64GB 4G negro",
+                                    "position": null,
+                                    "disabled": null
+                                },
+                                "price_range": {
+                                    "minimum_price": {
+                                        "regular_price": {
+                                            "value": 294799,
+                                            "currency": "ARS"
+                                        },
+                                        "final_price": {
+                                            "value": 199999,
+                                            "currency": "ARS"
+                                        },
+                                        "discount": {
+                                            "amount_off": 94800,
+                                            "percent_off": 32.16
+                                        }
+                                    },
+                                    "maximum_price": {
+                                        "regular_price": {
+                                            "value": 294799,
+                                            "currency": "ARS"
+                                        },
+                                        "final_price": {
+                                            "value": 199999,
+                                            "currency": "ARS"
+                                        },
+                                        "discount": {
+                                            "amount_off": 94800,
+                                            "percent_off": 32.16
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "product": {
+                                "id": 17611,
+                                "name": "Samsung Galaxy A05 64GB 4G Silver",
+                                "sku": "TM4ARSAA055MGR00",
+                                "manufacturer": 49,
+                                "image": {
+                                    "url": "https:\/\/tiendaonline.movistar.com.ar\/media\/catalog\/product\/cache\/4bc237c39ea3bd569ee738bf9a6d02c2\/a\/0\/a05.png",
+                                    "label": "Samsung Galaxy A05 64GB 4G Silver",
+                                    "position": null,
+                                    "disabled": null
+                                },
+                                "price_range": {
+                                    "minimum_price": {
+                                        "regular_price": {
+                                            "value": 294799,
+                                            "currency": "ARS"
+                                        },
+                                        "final_price": {
+                                            "value": 199999,
+                                            "currency": "ARS"
+                                        },
+                                        "discount": {
+                                            "amount_off": 94800,
+                                            "percent_off": 32.16
+                                        }
+                                    },
+                                    "maximum_price": {
+                                        "regular_price": {
+                                            "value": 294799,
+                                            "currency": "ARS"
+                                        },
+                                        "final_price": {
+                                            "value": 199999,
+                                            "currency": "ARS"
+                                        },
+                                        "discount": {
+                                            "amount_off": 94800,
+                                            "percent_off": 32.16
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "product": {
+                                "id": 17608,
+                                "name": "Samsung Galaxy A05 64GB 4G Light green",
+                                "sku": "TM4ARSAA055MVE00",
+                                "manufacturer": 49,
+                                "image": {
+                                    "url": "https:\/\/tiendaonline.movistar.com.ar\/media\/catalog\/product\/cache\/4bc237c39ea3bd569ee738bf9a6d02c2\/s\/a\/samsung-a05-lgreen-front.png",
+                                    "label": "Samsung Galaxy A05 64GB 4G Light green",
+                                    "position": null,
+                                    "disabled": null
+                                },
+                                "price_range": {
+                                    "minimum_price": {
+                                        "regular_price": {
+                                            "value": 294799,
+                                            "currency": "ARS"
+                                        },
+                                        "final_price": {
+                                            "value": 199999,
+                                            "currency": "ARS"
+                                        },
+                                        "discount": {
+                                            "amount_off": 94800,
+                                            "percent_off": 32.16
+                                        }
+                                    },
+                                    "maximum_price": {
+                                        "regular_price": {
+                                            "value": 294799,
+                                            "currency": "ARS"
+                                        },
+                                        "final_price": {
+                                            "value": 199999,
+                                            "currency": "ARS"
+                                        },
+                                        "discount": {
+                                            "amount_off": 94800,
+                                            "percent_off": 32.16
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+  

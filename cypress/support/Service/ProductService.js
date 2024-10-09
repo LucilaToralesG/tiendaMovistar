@@ -1,36 +1,54 @@
-import ProductPage from "../Pages/ProductPage";
-export class ProductService{
+import { productPage } from "../Pages/ProductPage";
+class ProductService{
     
-    static product = new ProductPage();
-    
-    static searchProduct(product){
-        this.product.getSearchBtm().click({force: true});
-        this.product.getSearchTextBox().clear().type(product);
-        this.product.getSearchBtm().click();
+    searchProduct(product){
+        productPage.getSearchBtm().click({force: true});
+        productPage.getSearchTextBox().clear().type(product);
+        productPage.getSearchBtm().click();
     }
-    static verifyProductName(name){
-        this.product.getProductName().should('be.visible');
-        this.product.getProductName().should('contain',name);
+    verifyProductName(name){
+        productPage.getProductName().should('be.visible');
+        productPage.getProductName().should('contain',name);
     }
-    static selectFilter(filter){
-        this.product.getFilterBtm().click();
-        this.product.getFilterItems().contains(filter).click();
+    selectFilter(filter){
+        productPage.getFilterBtm().click();
+        productPage.getFilterItems().contains(filter).click();
     }
-    static openCalculateInstallment(){
+    openCalculateInstallment(){
         cy.contains('Calculá tus cuotas').should('be.visible');
-        this.product.getInstallmentsBtm().click();
+        productPage.getInstallmentsBtm().click();
     }
-    static selectInstallment(bank,card){
+    selectInstallment(bank,card){
         this.openCalculateInstallment();
-        this.product.getBankBox().click();
-        this.product.getBankOpcion().find('li').contains(bank).click({force: true});
-        this.product.getCardBox().click();
-        this.product.getCardOpcion().find('li').contains(card).click({force: true});
-        this.product.getResultInstallmentBtm().click();
+        productPage.getBankBox().click();
+        productPage.getBankOpcion().find('li').contains(bank).click({force: true});
+        productPage.getCardBox().click();
+        productPage.getCardOpcion().find('li').contains(card).click({force: true});
+        productPage.getResultInstallmentBtm().click();
     }
-    static verifyInstallmentAvailable(available,installments){
-        this.product.getResultInstallmentInfo().should('be.visible');
-        this.product.getResultInstallmentInfo().should(available, installments+' cuotas sin interés de');
+    verifyInstallmentAvailable(available,installments){
+        productPage.getResultInstallmentInfo().should('be.visible');
+        if (installments==1) {
+            productPage.getResultInstallmentInfo().should(available, installments+' cuota sin interés de');
+        } else {
+            productPage.getResultInstallmentInfo().should(available, installments+' cuotas sin interés de');
+        }
+        
     }
 
-}
+    pressAddCard(){
+        productPage.getAddCard().should('be.visible').click();
+    }
+    
+    validateInstallment(size){
+        productPage.getResultInstallmentInfo().children('tr').should('have.length', size);
+    }
+
+    validarInstallmentCardBank(bank,card){
+        productPage.getBankCardDescription().should('be.visible').children('strong').first().and('contain', card);
+        productPage.getBankCardDescription().should('be.visible').children('strong').last().and('contain',bank);
+    }
+
+
+} 
+export const productService = new ProductService();

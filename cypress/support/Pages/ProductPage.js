@@ -23,5 +23,11 @@ class ProductPage {
     getResultInstallmentInfo(){
         return cy.get('#installmentsTable');
     }
+    getBankCardDescription(){
+        return cy.get('#installmentsTable > p');
+    }
+    getAddCard(){
+        return cy.get('#swatch_attribute_card');
+    }
 }
-export default ProductPage
+export const productPage = new ProductPage();

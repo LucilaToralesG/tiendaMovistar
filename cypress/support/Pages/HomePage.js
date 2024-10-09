@@ -23,5 +23,11 @@ class HomePage {
     getSortItems(){
         return cy.get('#options-sorter');
     }
+    getUsedBtm(){
+        return cy.get('.category-slider > .slick-list > .slick-track > [data-slick-index="1"] > :nth-child(1) > .item > a');
+    }
+    getMoreBtm(){
+        return cy.get('#moreProductsBtn');
+    }
 }
-export default HomePage
+export const homePage = new HomePage();
